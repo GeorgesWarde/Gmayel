@@ -1,0 +1,1996 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1/win-x64",
+    "signature": "e08635bdc7d4037bf1b19ca6ff655d33ae70337e"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {},
+    ".NETCoreApp,Version=v2.1/win-x64": {
+      "Libuv/1.10.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14"
+        },
+        "native": {
+          "runtimes/win-x64/native/libuv.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MessagePack/1.7.3.7": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.dll": {
+            "assemblyVersion": "1.7.3.7",
+            "fileVersion": "1.7.3.7"
+          }
+        }
+      },
+      "Microsoft.ApplicationInsights/2.4.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.ApplicationInsights.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.32153"
+          }
+        }
+      },
+      "Microsoft.ApplicationInsights.AspNetCore/2.1.1": {
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "2.4.0",
+          "Microsoft.ApplicationInsights.DependencyCollector": "2.4.1",
+          "NETStandard.Library": "2.0.3",
+          "System.Net.NameResolution": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Microsoft.ApplicationInsights.AspNetCore.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "Microsoft.ApplicationInsights.DependencyCollector/2.4.1": {
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "2.4.0",
+          "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Microsoft.AI.DependencyCollector.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.1362"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.All/2.1.30": {
+        "dependencies": {
+          "Microsoft.AspNetCore.ApplicationInsights.HostingStartup": "2.1.1",
+          "Microsoft.AspNetCore.AzureAppServices.HostingStartup": "2.1.1",
+          "Microsoft.AspNetCore.AzureAppServicesIntegration": "2.1.1",
+          "Microsoft.AspNetCore.DataProtection.AzureKeyVault": "2.1.24",
+          "Microsoft.AspNetCore.DataProtection.AzureStorage": "2.1.24",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv": "2.1.3",
+          "Microsoft.AspNetCore.SignalR.Redis": "1.0.11",
+          "Microsoft.Data.Sqlite": "2.1.14",
+          "Microsoft.Data.Sqlite.Core": "2.1.14",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.1.14",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.14",
+          "Microsoft.Extensions.Caching.Redis": "2.1.2",
+          "Microsoft.Extensions.Configuration.AzureKeyVault": "2.1.24",
+          "Microsoft.Extensions.Logging.AzureAppServices": "2.1.1",
+          "Microsoft.VisualStudio.Web.BrowserLink": "2.1.1"
+        }
+      },
+      "Microsoft.AspNetCore.ApplicationInsights.HostingStartup/2.1.1": {
+        "dependencies": {
+          "Microsoft.ApplicationInsights.AspNetCore": "2.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.AzureAppServices.HostingStartup/2.1.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.AzureAppServicesIntegration": "2.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.AzureAppServicesIntegration/2.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.AzureAppServices": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.AzureAppServicesIntegration.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.DataProtection.AzureKeyVault/2.1.24": {
+        "dependencies": {
+          "Microsoft.Azure.KeyVault": "2.3.2",
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.14.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureKeyVault.dll": {
+            "assemblyVersion": "2.1.24.0",
+            "fileVersion": "2.1.24.20325"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.DataProtection.AzureStorage/2.1.24": {
+        "dependencies": {
+          "Microsoft.Data.OData": "5.8.4",
+          "WindowsAzure.Storage": "8.1.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.dll": {
+            "assemblyVersion": "2.1.24.0",
+            "fileVersion": "2.1.24.20325"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv/2.1.3": {
+        "dependencies": {
+          "Libuv": "1.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll": {
+            "assemblyVersion": "2.1.3.0",
+            "fileVersion": "2.1.3.18207"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Redis/1.0.11": {
+        "dependencies": {
+          "MessagePack": "1.7.3.7",
+          "StackExchange.Redis.StrongName": "1.2.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Redis.dll": {
+            "assemblyVersion": "1.0.11.0",
+            "fileVersion": "1.0.11.19108"
+          }
+        }
+      },
+      "Microsoft.Azure.KeyVault/2.3.2": {
+        "dependencies": {
+          "Microsoft.Azure.KeyVault.WebKey": "2.0.7",
+          "Microsoft.Rest.ClientRuntime": "2.3.8",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.7",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.2.0"
+          }
+        }
+      },
+      "Microsoft.Azure.KeyVault.WebKey/2.0.7": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.7.0"
+          }
+        }
+      },
+      "Microsoft.Azure.Services.AppAuthentication/1.0.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.14.2",
+          "NETStandard.Library": "2.0.3",
+          "System.Diagnostics.Process": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Services.AppAuthentication.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Data.Edm/5.8.4": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
+            "assemblyVersion": "5.8.4.0",
+            "fileVersion": "5.8.4.63386"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.1/es/Microsoft.Data.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.1/fr/Microsoft.Data.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.1/it/Microsoft.Data.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.1/ja/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.1/ko/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.1/ru/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.1/zh-Hans/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.1/zh-Hant/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.OData/5.8.4": {
+        "dependencies": {
+          "Microsoft.Data.Edm": "5.8.4",
+          "System.Spatial": "5.8.4"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Data.OData.dll": {
+            "assemblyVersion": "5.8.4.0",
+            "fileVersion": "5.8.4.63386"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.1/de/Microsoft.Data.OData.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.1/es/Microsoft.Data.OData.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.1/fr/Microsoft.Data.OData.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.1/it/Microsoft.Data.OData.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.1/ja/Microsoft.Data.OData.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.1/ko/Microsoft.Data.OData.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.1/ru/Microsoft.Data.OData.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.1/zh-Hans/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.1/zh-Hant/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.Sqlite/2.1.14": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "2.1.14",
+          "SQLitePCLRaw.bundle_green": "1.1.12"
+        }
+      },
+      "Microsoft.Data.Sqlite.Core/2.1.14": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "2.1.14.0",
+            "fileVersion": "2.1.14.19284"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite/2.1.14": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.1.14",
+          "SQLitePCLRaw.bundle_green": "1.1.12"
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.1.14": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "2.1.14"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {
+            "assemblyVersion": "2.1.14.0",
+            "fileVersion": "2.1.14.19284"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Redis/2.1.2": {
+        "dependencies": {
+          "StackExchange.Redis.StrongName": "1.2.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Redis.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.18207"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.AzureKeyVault/2.1.24": {
+        "dependencies": {
+          "Microsoft.Azure.KeyVault": "2.3.2",
+          "Microsoft.Azure.Services.AppAuthentication": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {
+            "assemblyVersion": "2.1.24.0",
+            "fileVersion": "2.1.24.20325"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.AzureAppServices/2.1.1": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.AzureAppServices.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.21115"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "System.Runtime.Serialization.Json": "4.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {
+            "assemblyVersion": "3.14.2.11",
+            "fileVersion": "3.14.40721.918"
+          },
+          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {
+            "assemblyVersion": "3.14.2.11",
+            "fileVersion": "3.14.40721.918"
+          }
+        }
+      },
+      "Microsoft.NETCore.App/2.1.30": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.1.30",
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "NETStandard.Library": "2.0.3",
+          "runtime.win-x64.Microsoft.NETCore.App": "2.1.30"
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.1.30": {
+        "dependencies": {
+          "runtime.win-x64.Microsoft.NETCore.DotNetAppHost": "2.1.30"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostPolicy/2.1.30": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.1.30",
+          "runtime.win-x64.Microsoft.NETCore.DotNetHostPolicy": "2.1.30"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.1.30": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.1.30",
+          "runtime.win-x64.Microsoft.NETCore.DotNetHostResolver": "2.1.30"
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.1.14": {},
+      "Microsoft.NETCore.Targets/2.0.0": {},
+      "Microsoft.Rest.ClientRuntime/2.3.8": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.8.0"
+          }
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.8",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.3.7.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Web.BrowserLink/2.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Win32.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "Microsoft.NETCore.Targets": "2.0.0"
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14"
+        }
+      },
+      "runtime.native.System.Net.Security/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "Microsoft.NETCore.Targets": "2.0.0"
+        }
+      },
+      "runtime.win-x64.Microsoft.NETCore.App/2.1.30": {},
+      "runtime.win-x64.Microsoft.NETCore.DotNetAppHost/2.1.30": {},
+      "runtime.win-x64.Microsoft.NETCore.DotNetHostPolicy/2.1.30": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.1.30"
+        }
+      },
+      "runtime.win-x64.Microsoft.NETCore.DotNetHostResolver/2.1.30": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.1.30"
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.12": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.12",
+          "SQLitePCLRaw.lib.e_sqlite3.linux": "1.1.12",
+          "SQLitePCLRaw.lib.e_sqlite3.osx": "1.1.12",
+          "SQLitePCLRaw.lib.e_sqlite3.v110_xp": "1.1.12",
+          "SQLitePCLRaw.provider.e_sqlite3.netstandard11": "1.1.12"
+        },
+        "runtime": {
+          "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.12.351",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.12.351",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.12": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.12.351",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.12": {},
+      "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.12": {},
+      "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.12": {
+        "native": {
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.12": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.12"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "1.1.12.351",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StackExchange.Redis.StrongName/1.2.6": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Net.Security": "4.3.0",
+          "System.Net.Sockets": "4.3.0",
+          "System.Threading.ThreadPool": "4.3.0",
+          "System.Threading.Timer": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {
+            "assemblyVersion": "1.2.6.0",
+            "fileVersion": "1.2.6.0"
+          }
+        }
+      },
+      "System.Diagnostics.Process/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "Microsoft.Win32.Primitives": "4.3.0",
+          "System.Threading.ThreadPool": "4.3.0"
+        }
+      },
+      "System.Net.NameResolution/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14"
+        }
+      },
+      "System.Net.Security/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "Microsoft.Win32.Primitives": "4.3.0",
+          "System.Threading.ThreadPool": "4.3.0",
+          "runtime.native.System.Net.Security": "4.3.0"
+        }
+      },
+      "System.Net.Sockets/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "Microsoft.NETCore.Targets": "2.0.0"
+        }
+      },
+      "System.Runtime.Serialization.Json/4.0.2": {},
+      "System.Spatial/5.8.4": {
+        "runtime": {
+          "lib/netstandard1.1/System.Spatial.dll": {
+            "assemblyVersion": "5.8.4.0",
+            "fileVersion": "5.8.4.63386"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.1/de/System.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.1/es/System.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.1/fr/System.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.1/it/System.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.1/ja/System.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.1/ko/System.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.1/ru/System.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.1/zh-Hans/System.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.1/zh-Hant/System.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Threading.ThreadPool/4.3.0": {},
+      "System.Threading.Timer/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.14",
+          "Microsoft.NETCore.Targets": "2.0.0"
+        }
+      },
+      "System.ValueTuple/4.5.0": {},
+      "WindowsAzure.Storage/8.1.4": {
+        "dependencies": {
+          "Microsoft.Data.OData": "5.8.4",
+          "NETStandard.Library": "2.0.3",
+          "System.Spatial": "5.8.4"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {
+            "assemblyVersion": "8.1.4.0",
+            "fileVersion": "8.1.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Libuv/1.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
+      "path": "libuv/1.10.0",
+      "hashPath": "libuv.1.10.0.nupkg.sha512"
+    },
+    "MessagePack/1.7.3.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gyJ8m987yI1O7h4P2DS7YjOfOWqJ+WcvX/jST+vYxCt004FYRm6cHfCK20fa1ehpQhOwRIezVennku+pFWwtiw==",
+      "path": "messagepack/1.7.3.7",
+      "hashPath": "messagepack.1.7.3.7.nupkg.sha512"
+    },
+    "Microsoft.ApplicationInsights/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4dX/zu3Psz9oM3ErU64xfOHuSxOwMxN6q5RabSkeYbX42Yn6dR/kDToqjs+txCRjrfHUxyYjfeJHu+MbCfvAsg==",
+      "path": "microsoft.applicationinsights/2.4.0",
+      "hashPath": "microsoft.applicationinsights.2.4.0.nupkg.sha512"
+    },
+    "Microsoft.ApplicationInsights.AspNetCore/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kiGmzl9Cav34dF7AHVMoJxdJJQEeLB8KZGNwX1LjImG9iem5hGk4DkHpW7/m9Nh3DrL8IKSL3mqQo+IPqWfMRQ==",
+      "path": "microsoft.applicationinsights.aspnetcore/2.1.1",
+      "hashPath": "microsoft.applicationinsights.aspnetcore.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.ApplicationInsights.DependencyCollector/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RWxdX90MY6tNF8S5lwRvJcHiBMIWwVLCxd4TGIEl3X0yAKaolY2vs4zTCvyCIVkEAMs1aInTgWkYwOjzYvAHWw==",
+      "path": "microsoft.applicationinsights.dependencycollector/2.4.1",
+      "hashPath": "microsoft.applicationinsights.dependencycollector.2.4.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.All/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nSBtACRfNAvQBh+R+tVSUOlpfHDjJbVCxpDjYTOa3mgfNrITphNEvneuCDUk1G3nXgF2nHA3Dpou6MsTkW2BHg==",
+      "path": "microsoft.aspnetcore.all/2.1.30",
+      "hashPath": "microsoft.aspnetcore.all.2.1.30.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.ApplicationInsights.HostingStartup/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jP7ww3d5HBV35jZEkPANGVWQHM0aJ2z0x08dPgMOgtTN2wxTDdR8DgpD1uOlbRxsBuA/8bM2zny2HJ/5dP7INg==",
+      "path": "microsoft.aspnetcore.applicationinsights.hostingstartup/2.1.1",
+      "hashPath": "microsoft.aspnetcore.applicationinsights.hostingstartup.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.AzureAppServices.HostingStartup/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G36yI0jmnk2MCk+Jpn2J22uUlfIC862ZE//t0zhLI329HpigriB9kBHRdjED0uwO9rsDXswQYdUeSrzHOSoQHg==",
+      "path": "microsoft.aspnetcore.azureappservices.hostingstartup/2.1.1",
+      "hashPath": "microsoft.aspnetcore.azureappservices.hostingstartup.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.AzureAppServicesIntegration/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZjU0JDgyw5JpwHpK+/JHo7ayV7Scf9kS9IZuxlpwej178WyG7U/RMbyD89AhR4nkKBiqKysrtlGsPlUyyvDvZQ==",
+      "path": "microsoft.aspnetcore.azureappservicesintegration/2.1.1",
+      "hashPath": "microsoft.aspnetcore.azureappservicesintegration.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.DataProtection.AzureKeyVault/2.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MS+dv/2ADUAEj2fGsANhtxYoVypYfql37w7jsgOSYB3/QtuZZCQPAbMiBoWQ6XiksIynR36fqaulD9mSFi6Ygg==",
+      "path": "microsoft.aspnetcore.dataprotection.azurekeyvault/2.1.24",
+      "hashPath": "microsoft.aspnetcore.dataprotection.azurekeyvault.2.1.24.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.DataProtection.AzureStorage/2.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0QrXDMl1u5FXq0YrFGbppIX9Ll3QqIKu9zWXNrOBVdHXuHrzNMm7+YX+TFH90j5rEiXsUd7XYdXxnCGhvr/QNA==",
+      "path": "microsoft.aspnetcore.dataprotection.azurestorage/2.1.24",
+      "hashPath": "microsoft.aspnetcore.dataprotection.azurestorage.2.1.24.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv/2.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+thBX8y671RlDLMZ3ASeea2wrfc/+hHBjdU56EjHBVbmfC4on2Fy6/GNSfXEq+eog3kBD8VDXVBmVXwB93yZCg==",
+      "path": "microsoft.aspnetcore.server.kestrel.transport.libuv/2.1.3",
+      "hashPath": "microsoft.aspnetcore.server.kestrel.transport.libuv.2.1.3.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Redis/1.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q3r8sfrMFOquebNOU4nx4aJNM4TlrMo3y6e8uXo1Xl2DH0nmFBmvvcEyWeskAyFPHMp0U2nywY4TKvQy4l8O8A==",
+      "path": "microsoft.aspnetcore.signalr.redis/1.0.11",
+      "hashPath": "microsoft.aspnetcore.signalr.redis.1.0.11.nupkg.sha512"
+    },
+    "Microsoft.Azure.KeyVault/2.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A82ESUdfLz2wMhYuPxrwf/fA7JVt3IARgeMCG3TsaLtxUxa9RBKX3f0zdnKmvBvJ/u1/5g03OLR26GPekqY5HQ==",
+      "path": "microsoft.azure.keyvault/2.3.2",
+      "hashPath": "microsoft.azure.keyvault.2.3.2.nupkg.sha512"
+    },
+    "Microsoft.Azure.KeyVault.WebKey/2.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MVSYao62R9rwl9KF+IsJm+XBLupJj1ma2lfwNeFlSWziXGAopnYK+YkDWqABOqNIV9kpza/MvNBxITzhlJIyIw==",
+      "path": "microsoft.azure.keyvault.webkey/2.0.7",
+      "hashPath": "microsoft.azure.keyvault.webkey.2.0.7.nupkg.sha512"
+    },
+    "Microsoft.Azure.Services.AppAuthentication/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oSVQ+YLgn0PfDLBRwOtHrkw06Pc6HvqIVrtFFWMg/1eafY+Hbrm1CSXnzXKXJwqUUv0ynvuwqzjN+IFR3g588w==",
+      "path": "microsoft.azure.services.appauthentication/1.0.1",
+      "hashPath": "microsoft.azure.services.appauthentication.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.Data.Edm/5.8.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTN7J6ep8upUZFWGPnFL47j+kRN3ihKra+mDdqDmC2HN0AIuVAE6Dd/0IAqAUpKJc6uo5p5wNlCVn2eweAYhQQ==",
+      "path": "microsoft.data.edm/5.8.4",
+      "hashPath": "microsoft.data.edm.5.8.4.nupkg.sha512"
+    },
+    "Microsoft.Data.OData/5.8.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dK+jMmswaFFWLcgpz9jE8Kwi+LSUkfGVp+MY2egIB7K6ZPWPxiDSTo2I48bpRiMm18nF02/XJL5NwIWH10/l/Q==",
+      "path": "microsoft.data.odata/5.8.4",
+      "hashPath": "microsoft.data.odata.5.8.4.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite/2.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4lg06b2H5qnOh9/ePuZpyrcd0MvKb2r7fLMK8WY1HXndEVMUzXS9FEdYF86MZMmoTHxNOeftCS3q2Ea2RZajvA==",
+      "path": "microsoft.data.sqlite/2.1.14",
+      "hashPath": "microsoft.data.sqlite.2.1.14.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite.Core/2.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qw0P8/Jsa2eYeh2dK/iJtdkRA+/aPCkPDxwxRErpaKP1QoRqk1fnWMEAFcZjIHemR+eI8WB9ztmFjubInLkLKg==",
+      "path": "microsoft.data.sqlite.core/2.1.14",
+      "hashPath": "microsoft.data.sqlite.core.2.1.14.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite/2.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-azcILh0Z0bFfFOHAjADZUK59bAqhq0UFGGpOsmIEmxvSKrLC1lDOB5+7S/zGKsZ6kMaP6c0XUwJU4SHOlKIQvA==",
+      "path": "microsoft.entityframeworkcore.sqlite/2.1.14",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.2.1.14.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0cwPpqYHfvZ2FMp51GsYDadxWmg1i4Ykt8Bic7uZckPpWryJpy2k7ygJwvIG4RzqMwWEXfqeNXNMooSYh0yzQg==",
+      "path": "microsoft.entityframeworkcore.sqlite.core/2.1.14",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.core.2.1.14.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Redis/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G+RM+8AqAcxSe97icXUtrUAM04TyNh/YMp+RP/rQqyp+f859LY6kiED7hC65OKJeXImEbagZLdT1BgbOYqjcNw==",
+      "path": "microsoft.extensions.caching.redis/2.1.2",
+      "hashPath": "microsoft.extensions.caching.redis.2.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.AzureKeyVault/2.1.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bWBJw8ysvNmKvQ2F2zTxiY/yCF97ZLZMqkShdtiXmp9yKsz+ksr1z49jNdf54b7XlQValSTNHCJvv8jIiNUVpA==",
+      "path": "microsoft.extensions.configuration.azurekeyvault/2.1.24",
+      "hashPath": "microsoft.extensions.configuration.azurekeyvault.2.1.24.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.AzureAppServices/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xRPB1gJJF2BUax54KASplTP7LWvkfkt3zDMDYna3W+sCpxdkZSRnpasdYCq+yBnCeO5L7Actx7INtDnt8qovpA==",
+      "path": "microsoft.extensions.logging.azureappservices/2.1.1",
+      "hashPath": "microsoft.extensions.logging.azureappservices.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
+      "path": "microsoft.extensions.platformabstractions/1.1.0",
+      "hashPath": "microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TNsJJMiRnkeby1ovThVoV9yFsPWjAdluwOA+Nf0LtSsBVVrKQv8Qp4kYOgyNwMVj+pDwbhXISySk+4HyHVWNZQ==",
+      "path": "microsoft.identitymodel.clients.activedirectory/3.14.2",
+      "hashPath": "microsoft.identitymodel.clients.activedirectory.3.14.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.App/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hs73dGereVEUeE0f9nGgNrTgESyhm/41pQ3gIW7P/Bwv8yBJwsw8T0Yb40uessXNU6HcfZstudf70+yaHHK/sw==",
+      "path": "microsoft.netcore.app/2.1.30",
+      "hashPath": "microsoft.netcore.app.2.1.30.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetAppHost/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rbRBSaCEWZfVMVum2OulEELLjFWmiLmJIxeuODOUPgMuDXses4OOc/iQUf8qzNpWCRVGlYXQ0eV1m4Ic1RfVCA==",
+      "path": "microsoft.netcore.dotnetapphost/2.1.30",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.1.30.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0NCIUV9mlKQeIKnX6UzVvPAFFlqJKxLXmrk3/X7sMSNuX/9JpxleICmkTsHGdDQSoLiUz087pN6UvQinu3btzA==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.1.30",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.1.30.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4kf9/unrbokd9+gsM6pU/eoHfz9yhGXU2pTSDWLQzhYHfOZuBjT0Ky+GVQzy4AOkxX5hw+lVLYsDXpFgCCZroQ==",
+      "path": "microsoft.netcore.dotnethostresolver/2.1.30",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.1.30.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NIgzPaYG5IW3uX6trg+no4Z9oOaoeIR4QlvPeiA3P+dgozN/cS1XwyTnIrZmiGZ9GrvcD2ad01O4UiED6hogpw==",
+      "path": "microsoft.netcore.platforms/2.1.14",
+      "hashPath": "microsoft.netcore.platforms.2.1.14.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-odP/tJj1z6GylFpNo7pMtbd/xQgTC3Ex2If63dRTL38bBNMwsBnJ+RceUIyHdRBC0oik/3NehYT+oECwBhIM3Q==",
+      "path": "microsoft.netcore.targets/2.0.0",
+      "hashPath": "microsoft.netcore.targets.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hj96LBoCwKY2VQKfSCVGGPV1sSumVjuYnrlpBwL4JSTnSK4b6ZxjLtXj8LgmKav8xJ2gps+UN7eI3hHVFKvBFw==",
+      "path": "microsoft.rest.clientruntime/2.3.8",
+      "hashPath": "microsoft.rest.clientruntime.2.3.8.nupkg.sha512"
+    },
+    "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6u8JIuvrztse4tPOcvNzAJuzGBP0uY+Ijggk8ZYhp0siGEZ1XfZylf1vpNGUicvwcrhhoIgDW73Z1L6QGssr2g==",
+      "path": "microsoft.rest.clientruntime.azure/3.3.7",
+      "hashPath": "microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Web.BrowserLink/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fq4cFAvVNU5TYdsur/3DRRTdiS5ApKShYaBlxQabR/nUWCymqGXL4Fi1jl1YWq82e4I0c6eAao4YGZiruevrCA==",
+      "path": "microsoft.visualstudio.web.browserlink/2.1.1",
+      "hashPath": "microsoft.visualstudio.web.browserlink.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
+      "path": "microsoft.win32.primitives/4.3.0",
+      "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "runtime.native.System.Net.Security/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M2nN92ePS8BgQ2oi6Jj3PlTUzadYSIWLdZrHY1n1ZcW9o4wAQQ6W+aQ2lfq1ysZQfVCgDwY58alUdowrzezztg==",
+      "path": "runtime.native.system.net.security/4.3.0",
+      "hashPath": "runtime.native.system.net.security.4.3.0.nupkg.sha512"
+    },
+    "runtime.win-x64.Microsoft.NETCore.App/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5KcB1E4SrsRsJT6/1PfzA0Y43Td19uhuEdleF2jij/7xmYFPFsdK9Gqlqz6G+odjxEPWV3nGCv3v5anPSwYB2Q==",
+      "path": "runtime.win-x64.microsoft.netcore.app/2.1.30",
+      "hashPath": "runtime.win-x64.microsoft.netcore.app.2.1.30.nupkg.sha512"
+    },
+    "runtime.win-x64.Microsoft.NETCore.DotNetAppHost/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-80qijY8r5hgkUhtosyPeGfU+53E1ohGshRPzsLwLcSHN8wvKQoQnW44QFn31BjB5h75Ky8LkDpnphNkI7GH7Ng==",
+      "path": "runtime.win-x64.microsoft.netcore.dotnetapphost/2.1.30",
+      "hashPath": "runtime.win-x64.microsoft.netcore.dotnetapphost.2.1.30.nupkg.sha512"
+    },
+    "runtime.win-x64.Microsoft.NETCore.DotNetHostPolicy/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BHE+2eeZcjr+rKGgV7y4hggqiFd4dy1a3x1A6TAsPYv+msKs812eatYrfubGZ1e7MHtgUM4DEYl6kMSTo8vzxQ==",
+      "path": "runtime.win-x64.microsoft.netcore.dotnethostpolicy/2.1.30",
+      "hashPath": "runtime.win-x64.microsoft.netcore.dotnethostpolicy.2.1.30.nupkg.sha512"
+    },
+    "runtime.win-x64.Microsoft.NETCore.DotNetHostResolver/2.1.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y0BSRHPD/jFPjhYUFCVnBMNI1d+VEs9GfkFyQ9Q2AdB7MOOFB4WCbiUsQDCTEeuGKRzYOhwTaiLlZIUG8ECazA==",
+      "path": "runtime.win-x64.microsoft.netcore.dotnethostresolver/2.1.30",
+      "hashPath": "runtime.win-x64.microsoft.netcore.dotnethostresolver.2.1.30.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U5lZv+E0JBCG5uQngaRgyIAlbzIwRczb0m46XJfLGXovtfVOaMNRY/oGyKAJjdexVrfqLRd+JyopGMySpAZRGQ==",
+      "path": "sqlitepclraw.bundle_green/1.1.12",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.12.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S4hr+tE275ran5jyKFW/FYPG6Bz6nsHUp9H8chqKxzk21PxJadLd9LnvLe6LMRP/IqY5+LOIIDQF3m/2iDlZ7Q==",
+      "path": "sqlitepclraw.core/1.1.12",
+      "hashPath": "sqlitepclraw.core.1.1.12.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tn/YE1VxWtHa4MQ9KC//ptIw6cLAUh+xXSdpX7MyGINmb4/igqyx0IOEq5WeH/+cuI/EnDtdWAOn98eMQnKsTQ==",
+      "path": "sqlitepclraw.lib.e_sqlite3.linux/1.1.12",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.linux.1.1.12.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qfl1ljn6NOQDyM2i9JDZc6xekHoC+Fqe4GzuhWFCS6siI7lLInw09HHSZRqyimV36vjdQYnyBBFKSn53rSOYkA==",
+      "path": "sqlitepclraw.lib.e_sqlite3.osx/1.1.12",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.osx.1.1.12.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YfmaVhcEyAGU6BZ7NQiYYfCHKsCYjldwsafiFKArzqeM8MHuhfqft1Fjdv7ncukXrvKsHXhCrzJzKEMwPXiSSg==",
+      "path": "sqlitepclraw.lib.e_sqlite3.v110_xp/1.1.12",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.12.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qjz6Ad1Q5hiI8imCiG5Mpa/w8E8+rAk3SRJdX54uEOo5nPywiN1H0jmMZO+ID0nPibQA3yjlAHt5/GcLW9Iftg==",
+      "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.12",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.12.nupkg.sha512"
+    },
+    "StackExchange.Redis.StrongName/1.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UFmT1/JYu1PLiRwkyvEPVHk/tVTJa8Ka2rb9yzidzDoQARvhBVRpaWUeaP81373v54jupDBvAoGHGl0EY/HphQ==",
+      "path": "stackexchange.redis.strongname/1.2.6",
+      "hashPath": "stackexchange.redis.strongname.1.2.6.nupkg.sha512"
+    },
+    "System.Diagnostics.Process/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J0wOX07+QASQblsfxmIMFc9Iq7KTXYL3zs2G/Xc704Ylv3NpuVdo6gij6V3PGiptTxqsK0K7CdXenRvKUnkA2g==",
+      "path": "system.diagnostics.process/4.3.0",
+      "hashPath": "system.diagnostics.process.4.3.0.nupkg.sha512"
+    },
+    "System.Net.NameResolution/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
+      "path": "system.net.nameresolution/4.3.0",
+      "hashPath": "system.net.nameresolution.4.3.0.nupkg.sha512"
+    },
+    "System.Net.Security/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IgJKNfALqw7JRWp5LMQ5SWHNKvXVz094U6wNE3c1i8bOkMQvgBL+MMQuNt3xl9Qg9iWpj3lFxPZEY6XHmROjMQ==",
+      "path": "system.net.security/4.3.0",
+      "hashPath": "system.net.security.4.3.0.nupkg.sha512"
+    },
+    "System.Net.Sockets/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m6icV6TqQOAdgt5N/9I5KNpjom/5NFtkmGseEH+AK/hny8XrytLH3+b5M8zL/Ycg3fhIocFpUMyl/wpFnVRvdw==",
+      "path": "system.net.sockets/4.3.0",
+      "hashPath": "system.net.sockets.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Json/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
+      "path": "system.runtime.serialization.json/4.0.2",
+      "hashPath": "system.runtime.serialization.json.4.0.2.nupkg.sha512"
+    },
+    "System.Spatial/5.8.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0xPUcjZX/SlFA34BeXGC3oPX0wX98ndJApYjdDnisWubuAprbqAX8mRPoM10vFfUE6VQyyBj7u2we7be52D+BQ==",
+      "path": "system.spatial/5.8.4",
+      "hashPath": "system.spatial.5.8.4.nupkg.sha512"
+    },
+    "System.Threading.ThreadPool/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
+      "path": "system.threading.threadpool/4.3.0",
+      "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Timer/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
+      "path": "system.threading.timer/4.3.0",
+      "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "WindowsAzure.Storage/8.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
+      "path": "windowsazure.storage/8.1.4",
+      "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+    }
+  },
+  "runtimes": {
+    "win-arm": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win-arm64": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win-x64": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win-x86": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win": [
+      "any",
+      "base"
+    ],
+    "win-aot": [
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-arm-aot": [
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-arm-corert": [
+      "win-corert",
+      "win-arm",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win-arm64-aot": [
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-arm64-corert": [
+      "win-corert",
+      "win-arm64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win-corert": [
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win-x64-aot": [
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-x64-corert": [
+      "win-corert",
+      "win-x64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win-x86-aot": [
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-x86-corert": [
+      "win-corert",
+      "win-x86",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win10": [
+      "win81",
+      "win8",
+      "win7",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-aot": [
+      "win10",
+      "win81-aot",
+      "win81",
+      "win8-aot",
+      "win8",
+      "win7-aot",
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-arm": [
+      "win10",
+      "win81-arm",
+      "win81",
+      "win8-arm",
+      "win8",
+      "win7-arm",
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-arm-aot": [
+      "win10-aot",
+      "win10-arm",
+      "win10",
+      "win81-arm-aot",
+      "win81-aot",
+      "win81-arm",
+      "win81",
+      "win8-arm-aot",
+      "win8-aot",
+      "win8-arm",
+      "win8",
+      "win7-arm-aot",
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-arm-corert": [
+      "win10-corert",
+      "win10-arm",
+      "win10",
+      "win81-arm-corert",
+      "win81-corert",
+      "win81-arm",
+      "win81",
+      "win8-arm-corert",
+      "win8-corert",
+      "win8-arm",
+      "win8",
+      "win7-arm-corert",
+      "win7-corert",
+      "win7-arm",
+      "win7",
+      "win-arm-corert",
+      "win-corert",
+      "win-arm",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win10-arm64": [
+      "win10",
+      "win81-arm64",
+      "win81",
+      "win8-arm64",
+      "win8",
+      "win7-arm64",
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-arm64-aot": [
+      "win10-aot",
+      "win10-arm64",
+      "win10",
+      "win81-arm64-aot",
+      "win81-aot",
+      "win81-arm64",
+      "win81",
+      "win8-arm64-aot",
+      "win8-aot",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-aot",
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-arm64-corert": [
+      "win10-corert",
+      "win10-arm64",
+      "win10",
+      "win81-arm64-corert",
+      "win81-corert",
+      "win81-arm64",
+      "win81",
+      "win8-arm64-corert",
+      "win8-corert",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-corert",
+      "win7-corert",
+      "win7-arm64",
+      "win7",
+      "win-arm64-corert",
+      "win-corert",
+      "win-arm64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win10-corert": [
+      "win10",
+      "win81-corert",
+      "win81",
+      "win8-corert",
+      "win8",
+      "win7-corert",
+      "win7",
+      "win-corert",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win10-x64": [
+      "win10",
+      "win81-x64",
+      "win81",
+      "win8-x64",
+      "win8",
+      "win7-x64",
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-x64-aot": [
+      "win10-aot",
+      "win10-x64",
+      "win10",
+      "win81-x64-aot",
+      "win81-aot",
+      "win81-x64",
+      "win81",
+      "win8-x64-aot",
+      "win8-aot",
+      "win8-x64",
+      "win8",
+      "win7-x64-aot",
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-x64-corert": [
+      "win10-corert",
+      "win10-x64",
+      "win10",
+      "win81-x64-corert",
+      "win81-corert",
+      "win81-x64",
+      "win81",
+      "win8-x64-corert",
+      "win8-corert",
+      "win8-x64",
+      "win8",
+      "win7-x64-corert",
+      "win7-corert",
+      "win7-x64",
+      "win7",
+      "win-x64-corert",
+      "win-corert",
+      "win-x64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win10-x86": [
+      "win10",
+      "win81-x86",
+      "win81",
+      "win8-x86",
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-x86-aot": [
+      "win10-aot",
+      "win10-x86",
+      "win10",
+      "win81-x86-aot",
+      "win81-aot",
+      "win81-x86",
+      "win81",
+      "win8-x86-aot",
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-x86-corert": [
+      "win10-corert",
+      "win10-x86",
+      "win10",
+      "win81-x86-corert",
+      "win81-corert",
+      "win81-x86",
+      "win81",
+      "win8-x86-corert",
+      "win8-corert",
+      "win8-x86",
+      "win8",
+      "win7-x86-corert",
+      "win7-corert",
+      "win7-x86",
+      "win7",
+      "win-x86-corert",
+      "win-corert",
+      "win-x86",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win7": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-aot": [
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-arm": [
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-arm-aot": [
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-arm-corert": [
+      "win7-corert",
+      "win7-arm",
+      "win7",
+      "win-arm-corert",
+      "win-corert",
+      "win-arm",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win7-arm64": [
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-arm64-aot": [
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-arm64-corert": [
+      "win7-corert",
+      "win7-arm64",
+      "win7",
+      "win-arm64-corert",
+      "win-corert",
+      "win-arm64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win7-corert": [
+      "win7",
+      "win-corert",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win7-x64": [
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-x64-aot": [
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-x64-corert": [
+      "win7-corert",
+      "win7-x64",
+      "win7",
+      "win-x64-corert",
+      "win-corert",
+      "win-x64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win7-x86": [
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-x86-aot": [
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-x86-corert": [
+      "win7-corert",
+      "win7-x86",
+      "win7",
+      "win-x86-corert",
+      "win-corert",
+      "win-x86",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win8": [
+      "win7",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-aot": [
+      "win8",
+      "win7-aot",
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-arm": [
+      "win8",
+      "win7-arm",
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-arm-aot": [
+      "win8-aot",
+      "win8-arm",
+      "win8",
+      "win7-arm-aot",
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-arm-corert": [
+      "win8-corert",
+      "win8-arm",
+      "win8",
+      "win7-arm-corert",
+      "win7-corert",
+      "win7-arm",
+      "win7",
+      "win-arm-corert",
+      "win-corert",
+      "win-arm",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win8-arm64": [
+      "win8",
+      "win7-arm64",
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-arm64-aot": [
+      "win8-aot",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-aot",
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-arm64-corert": [
+      "win8-corert",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-corert",
+      "win7-corert",
+      "win7-arm64",
+      "win7",
+      "win-arm64-corert",
+      "win-corert",
+      "win-arm64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win8-corert": [
+      "win8",
+      "win7-corert",
+      "win7",
+      "win-corert",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win8-x64": [
+      "win8",
+      "win7-x64",
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-x64-aot": [
+      "win8-aot",
+      "win8-x64",
+      "win8",
+      "win7-x64-aot",
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-x64-corert": [
+      "win8-corert",
+      "win8-x64",
+      "win8",
+      "win7-x64-corert",
+      "win7-corert",
+      "win7-x64",
+      "win7",
+      "win-x64-corert",
+      "win-corert",
+      "win-x64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win8-x86": [
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-x86-aot": [
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-x86-corert": [
+      "win8-corert",
+      "win8-x86",
+      "win8",
+      "win7-x86-corert",
+      "win7-corert",
+      "win7-x86",
+      "win7",
+      "win-x86-corert",
+      "win-corert",
+      "win-x86",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win81": [
+      "win8",
+      "win7",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-aot": [
+      "win81",
+      "win8-aot",
+      "win8",
+      "win7-aot",
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-arm": [
+      "win81",
+      "win8-arm",
+      "win8",
+      "win7-arm",
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-arm-aot": [
+      "win81-aot",
+      "win81-arm",
+      "win81",
+      "win8-arm-aot",
+      "win8-aot",
+      "win8-arm",
+      "win8",
+      "win7-arm-aot",
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-arm-corert": [
+      "win81-corert",
+      "win81-arm",
+      "win81",
+      "win8-arm-corert",
+      "win8-corert",
+      "win8-arm",
+      "win8",
+      "win7-arm-corert",
+      "win7-corert",
+      "win7-arm",
+      "win7",
+      "win-arm-corert",
+      "win-corert",
+      "win-arm",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win81-arm64": [
+      "win81",
+      "win8-arm64",
+      "win8",
+      "win7-arm64",
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-arm64-aot": [
+      "win81-aot",
+      "win81-arm64",
+      "win81",
+      "win8-arm64-aot",
+      "win8-aot",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-aot",
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-arm64-corert": [
+      "win81-corert",
+      "win81-arm64",
+      "win81",
+      "win8-arm64-corert",
+      "win8-corert",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-corert",
+      "win7-corert",
+      "win7-arm64",
+      "win7",
+      "win-arm64-corert",
+      "win-corert",
+      "win-arm64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win81-corert": [
+      "win81",
+      "win8-corert",
+      "win8",
+      "win7-corert",
+      "win7",
+      "win-corert",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win81-x64": [
+      "win81",
+      "win8-x64",
+      "win8",
+      "win7-x64",
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-x64-aot": [
+      "win81-aot",
+      "win81-x64",
+      "win81",
+      "win8-x64-aot",
+      "win8-aot",
+      "win8-x64",
+      "win8",
+      "win7-x64-aot",
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-x64-corert": [
+      "win81-corert",
+      "win81-x64",
+      "win81",
+      "win8-x64-corert",
+      "win8-corert",
+      "win8-x64",
+      "win8",
+      "win7-x64-corert",
+      "win7-corert",
+      "win7-x64",
+      "win7",
+      "win-x64-corert",
+      "win-corert",
+      "win-x64",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ],
+    "win81-x86": [
+      "win81",
+      "win8-x86",
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-x86-aot": [
+      "win81-aot",
+      "win81-x86",
+      "win81",
+      "win8-x86-aot",
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-x86-corert": [
+      "win81-corert",
+      "win81-x86",
+      "win81",
+      "win8-x86-corert",
+      "win8-corert",
+      "win8-x86",
+      "win8",
+      "win7-x86-corert",
+      "win7-corert",
+      "win7-x86",
+      "win7",
+      "win-x86-corert",
+      "win-corert",
+      "win-x86",
+      "win",
+      "corert",
+      "any",
+      "base"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "items": {
+        "_MonoRuntimeComponentLinking": [
+            { "identity": "static", "RuntimeIdentifier": "Browser-wasm" },
+        ],
+        "_MonoRuntimeComponentSharedLibExt": [
+            { "identity": ".so", "RuntimeIdentifier": "Browser-wasm" },
+        ],
+        "_MonoRuntimeComponentStaticLibExt": [
+            { "identity": ".a", "RuntimeIdentifier": "Browser-wasm" },
+        ],
+        "_MonoRuntimeAvailableComponents": [
+            { "identity": "debugger", "RuntimeIdentifier": "Browser-wasm" },
+{ "identity": "hot_reload", "RuntimeIdentifier": "Browser-wasm" },
+{ "identity": "diagnostics_tracing", "RuntimeIdentifier": "Browser-wasm" },
+        ],
+    }
+}

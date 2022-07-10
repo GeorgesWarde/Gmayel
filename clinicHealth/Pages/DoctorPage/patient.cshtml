@@ -1,0 +1,92 @@
+﻿@page
+@model clinicHealth.Pages.DoctorPage.patientModel
+@{
+}
+<style>
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+     margin-left:0 !important;
+}
+</style>
+<div class="container">
+    <div class="row">
+
+    <div class="col">
+ <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;height:650px;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      <span class="fs-4">Clinic Doctor</span>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link active" aria-current="page">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
+          Manage Patients
+        </a>
+      </li>
+      <li>
+        <a href="/doctorPage/checkAppointment?id=@Request.Query["id"]"class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+          Check Appointments
+        </a>
+      </li>
+    </ul>
+    <hr>
+    <div class="dropdown">
+    
+      <ul>
+        <li><a href="/">Sign out</a></li>
+      </ul>
+    </div>
+    </div>
+    </div>
+    
+ <div class="col-9">
+<h2>List of Patients E-Files</h2>
+
+<form  method="POST"> 
+  <input style="border-radius:5px;" type="text" name="name" class="search" placeholder="Search here!">
+  <input class="btn btn-primary" type="submit" name="submit" class="submit" value="Search">
+ <a class='btn btn-primary btn-sm' href="/DoctorPage/createPatient?id=@Request.Query["id"]">New Patient</a>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <td>Full Name</td>
+            <td>Year of birth</td>
+            <td>Age</td>
+            <td>Symptoms</td>
+            <td>Allergies</td>
+            <td>Visit Date</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+       @foreach(var item in Model.listPatients)
+        {
+            <tr>
+            <td>@item.id</td>
+             <td>@item.full_name</td>
+            <td>@item.year_of_birth</td>
+            <td>@item.Age</td>
+            <td>@item.Symptoms</td>
+            <td>@item.Allergies</td>
+            <td>@item.visit_date</td>
+            <td>
+                <a class="btn btn-primary btn-sm" href="/DoctorPage/editpatient?id=@item.id">Edit</a>
+                  
+                <a class="btn btn-danger btn-sm" href="/DoctorPage/deletePatient?id=@item.id">Delete</a>
+            </td>
+        </tr> 
+        }
+    </tbody>
+
+</table>
+</div>
+</div>
+</div>

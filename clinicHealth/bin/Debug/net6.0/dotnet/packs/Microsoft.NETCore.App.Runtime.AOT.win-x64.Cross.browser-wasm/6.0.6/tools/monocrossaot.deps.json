@@ -1,0 +1,27 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/win-x64": {
+      "Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm/6.0.6": {
+        "native": {
+          "mono-aot-cross.exe": {
+            "fileVersion": "6.0.622.26707"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.App.Runtime.AOT.win-x64.Cross.browser-wasm/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.netcore.app.runtime.aot.win-x64.cross.browser-wasm/6.0.6"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+﻿@page
+@model clinicHealth.Pages.AdminPage.editDoctorModel
+@{
+}<br>
+<h2>Edit Patient</h2>
+@if(Model.errorMessage.Length>0){
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+}
+<form method="POST">
+    <input type="hidden" name="id" value="@Model.user.id"/>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label"> Full Name</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="name" value="@Model.user.full_name">
+        </div>
+    </div>
+     <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Username</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="username" value="@Model.user.username">
+        </div>
+    </div>
+        <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Age</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Age" value="@Model.user.age">
+        </div>
+    </div>
+      <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Gender</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Gender" value="@Model.user.Gender">
+        </div>
+    </div>
+      <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Password</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="password" value="@Model.user.password">
+        </div>
+    </div>
+   
+    @if(Model.successMessage.Length>0){
+        <div class="row mb-3">
+      <div class="col-sm-9">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.successMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+    </div>
+    </div>
+}
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+        </div>
+    </div>
+</form>
